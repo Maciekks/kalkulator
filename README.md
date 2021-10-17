@@ -1,8 +1,8 @@
 ﻿# kalkulator
 ## DEMO
 
-Pierwsze strony frontendowe - prosty kalkulator walut z odnośnikiem do strony z kursami.
+My first frontend experience - simple currency calculator. 
 
 https://maciekks.github.io/kalkulator/index.html
 
-Sprawdź moje początki :)
+Check my beginnings :)
