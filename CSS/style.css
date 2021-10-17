@@ -8,6 +8,12 @@ html {
 
 .body{
     font-family: 'Roboto', sans-serif;
+    max-width: 700px;
+    margin: auto;
+    background-color:rgb(180, 180, 238);
+    color:white;
+    height: 1080px;
+    
 }
 
 .container {
@@ -36,4 +42,14 @@ border-radius: 5px;
 
 .caption {
     caption-side: bottom;
+}
+
+.element {
+    
+    resize: both;
+    overflow: auto;
+    background-image: url("../images/background\ image2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
