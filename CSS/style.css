@@ -6,37 +6,39 @@ html {
     box-sizing: inherit;
 }
 
-.body{
+.body {
     font-family: 'Roboto', sans-serif;
-    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
-    background-color:rgb(180, 180, 238);
-    color:white;
+    background-color: rgb(180, 180, 238);
     height: 1080px;
-    
 }
 
 .container {
-    max-width: 700px;
-    margin: 0px auto;
+    flex-basis: 300px;
+    margin: 20px auto;
     padding: 0px 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%)''
 }
 
 .button {
-padding: 5px;
-margin-top: 10px;
-color: white;
-background-color: teal;
-border-radius: 5px;
-
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color: teal;
+    border-radius: 5px;
 }
 
 .button:hover {
     background-color: rgb(69, 214, 166);
 }
 
-.frame{
-    width: 100%;
+.frame {
+    width: 400px;
     height: 400px;
 }
 
@@ -45,7 +47,6 @@ border-radius: 5px;
 }
 
 .element {
-    
     resize: both;
     overflow: auto;
     background-image: url("../images/background\ image2.png");
